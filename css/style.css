@@ -7,7 +7,6 @@
     --negro:    #000000;
     --gris:     #e1e1e1;
 }
-
 html {
     box-sizing: border-box;
     font-size:  62.5%; /* 1rem = 10px */
@@ -61,6 +60,12 @@ img {
     text-align: center;
 }
 /**  Header   **/
+.webp .header {
+    background-image: url(../img/banner.webp);
+}
+.no-webp .header {
+    background-image: url(../img/banner.jpg);
+}
 .header {
     background-image: url(../img/banner.jpg);
     height: 55rem;
